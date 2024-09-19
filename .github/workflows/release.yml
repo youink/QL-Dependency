@@ -1,0 +1,69 @@
+name: Release
+on:
+  push:
+    branches:
+      - main
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull source
+        uses: actions/checkout@v1
+      - name: Get version
+        id: get_version
+        run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            Update: Add some dependences.
+            Fix: Fix Bugs
+            Release Version OneKeyQLDependency.tar Click to download
+            欢迎点 Star, 下载
+            Welcome To Star this repo.
+            upload-to-github-release works with ```actions/create-release```
+          draft: true
+          prerelease: false
+      - uses: xresloader/upload-to-github-release@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          file: "*.*"
+          delete_file: ""
+          release_id: ${{ steps.create_release.outputs.id }}
+          overwrite: false
+          verbose: true
+      - name: Gzip
+        run: |
+          mkdir OneKeyQLDependency
+          cp Shell/QLOneKeyDependency.sh README.md OneKeyQLDependency
+          tar -cvf OneKeyQLDependency.tar OneKeyQLDependency
+      - name: Simple Upload to Release
+        uses: xresloader/upload-to-github-release@v1
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.get_version.outputs.VERSION }}
+          release_name: ${{ steps.get_version.outputs.VERSION }}
+          file: "OneKeyQLDependency.tar"
+          tags: false
+          draft: false
+          release_id: ${{ steps.create_release.outputs.id }}
+          overwrite: false
+          verbose: true
+      - name: Mirror the Github organization repos to Gitee.
+        uses: Yikun/hub-mirror-action@master
+        with:
+          src: github/FlechazoPh
+          dst: gitee/exting
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
+          static_list: QLDependency
+          account_type: user
+
+
