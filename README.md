@@ -1,6 +1,6 @@
 <div align="center">
   
-![QLDependency Logo](https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/QQ20220115-203256.png)
+![QLDependency Logo](https://cdn.jsdelivr.net/gh/youink/QL-Dependency@main/assets/QQ20220115-203256.png)
 
 </div>
 
@@ -27,11 +27,11 @@ A timed task management panel that supports typescript, javaScript, python3, and
 [docker-version-url]: https://hub.docker.com/r/whyour/qinglong/tags?page=1&ordering=last_updated
 <!-- [docker-stars-image]: https://img.shields.io/docker/stars/whyour/qinglong?style=flat -->
 <!-- [docker-stars-url]: https://hub.docker.com/r/whyour/qinglong -->
-![GitHub Repo stars](https://img.shields.io/github/stars/FlechazoPh/QLDependency)
-![GitHub forks](https://img.shields.io/github/forks/FlechazoPh/QLDependency)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/FlechazoPh/QLDependency/Release)
+![GitHub Repo stars](https://img.shields.io/github/stars/youink/QL-Dependency)
+![GitHub forks](https://img.shields.io/github/forks/youink/QL-Dependency)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/youink/QL-Dependency/Release)
 [![docker-image-size-image]][docker-image-size-url]
-![GitHub](https://img.shields.io/github/license/flechazoph/qldependency)
+![GitHub](https://img.shields.io/github/license/youink/QL-Dependency)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FFlechazoPh%2FQLDependency.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FFlechazoPh%2FQLDependency?ref=badge_shield)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/whyour/qinglong)
@@ -60,33 +60,6 @@ A timed task management panel that supports typescript, javaScript, python3, and
 </details>
 
 欢迎前往原作者仓库右上角点 <b>⭐ Star 收藏和 关注 Follow</b>
-
-### 🚀 稳定自用 IPA 个人签名证书及稳定机场推荐：（2024.01.03 更新）
-
-* [🏆 AppleP12 - 稳定高质量的个人开发者 P12 自签证书](https://applep12.com/?InviteCode=2185417EA932) - ⬅️ 我们的IPA自签证书来自全球多个国家，避免了苹果的封锁，多年稳定，随时轻松获取P12证书。价格便宜。
-<br>
-
-* [🥈 ChatGPT-4-AI聊天APIKey](https://api.playaichat.cn/register?aff=T5pe) ⬅️ 点击注册免费使用
-<br>
-
-* [👿 比特云-Bitcloud](https://bit.ly/3yYiTuD) ⬅️ 点击链接注册即可获得优惠折扣券
-<br>
-
-* [🚖 奈飞小铺-流媒体合租 Netflix/Disney+/HBO+](https://ihezu.gold/kCm7mj) ⬅️ **点击链接注册即可获得优惠折扣券 欢迎支持**
-<br>
-
-<!--Trap--:)-->
-<a href="https://github.com/404"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
-
-
-## 爱发电 (可以请我喝杯咖啡咩☕️ 谢谢~)
-
-* [爱发电赞赏主页](https://afdian.net/@flechazo?tab=home)
-
-<!--
-### 点这里请我吃个面包~ <br>
-<a href="https://dun.mianbaoduo.com/@Flechazo" target="_blank"><img src="https://img.niucodata.com/dundunfan-bt.png"></a>
--->
 
 # QLDependency
 # 青龙全依赖一键安装脚本 部署文档
@@ -149,7 +122,7 @@ or
 
 ```bash
 
-docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/FlechazoPh/QLDependency/main/Shell/QLOneKeyDependency.sh | bash)"
+docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/youink/QL-Dependency/main/Shell/QLOneKeyDependency.sh | bash)"
 
 ```
 
@@ -161,7 +134,7 @@ docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://raw.g
 
 ```bash
 
-docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com/FlechazoPh/QLDependency/main/Shell/QLOneKeyDependency.sh | bash)"
+docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com/youink/QL-Dependency/main/Shell/QLOneKeyDependency.sh | bash)"
 
 ```
 
@@ -170,7 +143,7 @@ docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com
 
 ```bash
 
-docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com/FlechazoPh/QLDependency/main/Shell/XinQLOneKey.sh | bash)"
+docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com/youink/QL-Dependency/main/Shell/XinQLOneKey.sh | bash)"
 
 ```
 
@@ -189,7 +162,7 @@ docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com
 2. 输入一键安装命令，如果你的青龙容器不叫 qinglong，需要替换为相应的容器名字（国外鸡，可以使用上面的国外脚本，速度比较快）： 
 ```bash
 
-docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/FlechazoPh/QLDependency/main/Shell/QLOneKeyDependency.sh | bash)"
+docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/youink/QL-Dependency/main/Shell/QLOneKeyDependency.sh | bash)"
 
 ```
 3. 查看输出日志：
@@ -222,113 +195,19 @@ End
 ## 常见问题
 
 安装报错等常见问题请参考： 
-* [常见问题答疑](https://github.com/FlechazoPh/QLDependency/issues?q=is%3Aissue+is%3Aclosed)
+* [常见问题答疑](https://github.com/youink/QL-Dependency/issues?q=is%3Aissue+is%3Aclosed)
 
 ## 附：
 有新的需要的依赖，请测试完成后提交pull request，等待审核通过合并到项目中
 
 
-## 请作者喝杯咖啡 (进微信交流群)～ ☕
-<!--Trap--:)-->
-<a href="https://github.com/404"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
-
-<!-- <table style="table-layout: fixed;" width=100% > 
-<tr> 
- <td> <p align="center">支付宝</p> <img width="300" height="300" src="https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/3F596EC7-92D9-49DA-9CA3-78D2DE07838E.jpeg" /> </td> 
- <td> <p align="center">微信</p> <img width="300" height="300" src="https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/4B6DD0C1-8ECE-4C09-A0F7-3B6A36F399E7.jpeg" /></td> 
- <td> <p align="center">微信交流群(活码，需微信扫描两次)</p> <img width="300" height="300" src="https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/wechat_group.png" /></td> 
- <td> <p align="center">Telegram 群组(https://t.me/github_chats)</p> <img width="300" height="300" src="https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/tggroup.png" /></td> 
-   
-  <td> <p align="center">加不了群请加微信好友(备注 Github)</p> <img width="300" height="300" src="https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/20211127211122.jpg" /></td> 
-</tr> 
-<!--Trap--:)-->
-
-<!-- </table> -->
-|    支付宝赞助码     |  微信赞助码   |    ** 微信交流群(活码，需微信扫描两次) **    | Telegram 群组(https://t.me/github_chats) | 加不了群请加微信好友(备注 Github) |
-| ----------- | ----------- |  ----------- | ----------- | ----------- |
-| ![SSH](https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/3F596EC7-92D9-49DA-9CA3-78D2DE07838E.jpeg) | ![SSH](https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/4B6DD0C1-8ECE-4C09-A0F7-3B6A36F399E7.jpeg)  | ![SSH](https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/cli_wechat.png) | ![SSH](https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/tggroup.png) | ![SSH](https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/20211127211122.jpg) | 
-
-<br>
-
-### ⭐ 推荐项目
-* **头像壁纸微信小程序作品-情侣头像精选库**，欢迎扫码体验~ <img src=https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/miniprogram.png width=40% />
-<!-- 
-<table border="0">
-<tr>
-  <td> 支付宝赞助码
-    <a href="https://github.com/FlechazoPh" target="_blank">
-  <img align="center" src="https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/3F596EC7-92D9-49DA-9CA3-78D2DE07838E.jpeg" />
-</a> </td>
-  <td> 微信赞助码 
-  <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/4B6DD0C1-8ECE-4C09-A0F7-3B6A36F399E7.jpeg">
-   </td>
- </td>
-</tr>
-<tr>
-  <td> <a target="_blank" href="https://github.com/FlechazoPh">
-  <img align="top" src="https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/cli_wechat.png" />
-</a> </td>
-  <td> <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/tggroup.png">
-   </td> </td>
-</tr>
-<tr>
-  <td> <a target="_blank" href="https://github.com/FlechazoPh">
-  <img align="top" src="https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/20211127211122.jpg" />
-</a> </td>
-</tr>
-</table>
- -->
-
-<!--Trap--:)-->
-<a href="https://github.com/404"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
-
-
-## 赞助（从新到旧） ⬇
-
-|    昵称     |  赞助金额   |     留言     |
-| ----------- | ----------- |  ----------- |
-| 匿名        | 1.0 ￥      |              |
-| 匿名        | 2.0 ￥      |              |
-| P * n       | 10.0 ￥     |   coffee     |
-| * 宁        | 0.01 ￥     |              |
-| * 人        | 5.00 ￥     | 谢谢~        |
-| * 晨        | 18.00 ￥    | 谢谢大佬！！ |
-| Alan        | 2.50 ￥     |              |
-
-
-## 爱发电 (请我喝杯咖啡~)
-
-* [爱发电赞赏主页](https://afdian.net/@flechazo?tab=home)
-
-
-## ★ Star 趋势 /Stargazers Over Time
-
-[![Stargazers over time](https://starchart.cc/FlechazoPh/QLDependency.svg)](https://starchart.cc/FlechazoPh/QLDependency)
-
-   <td align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=flechazoph&theme=radical">
-   </td>
-
-
-### ⭐ 推荐收藏项目
-* [AwesomeScripts - 自用 Quantumult X 脚本](https://github.com/FlechazoPh/AwesomeScripts)
-* **我最近新开发上线的壁纸头像小程序作品-【情侣头像精选库】**，欢迎扫码支持体验~ 
-<td align="center">
-  <img src=https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/miniprogram.png width=40% />
-</td>
-<!-- ![SSH](https://cdn.jsdelivr.net/gh/FlechazoPh/QLDependency@main/assets/miniprogram.png) -->
-
-<br>
-   
 ## 鸣谢
 
 * [qinglong](https://github.com/whyour/qinglong)
 
 * [crontab-ui](https://github.com/alseambusher/crontab-ui)
 
-* ![logo](https://github.com/FlechazoPh/QLDependency/assets/94276146/050e2f90-60bb-438f-a5e3-6ecd964c341c)
+* ![logo](https://github.com/youink/QL-Dependency/assets/94276146/050e2f90-60bb-438f-a5e3-6ecd964c341c)
   
 * [DartNode](https://dartnode.com)
 
