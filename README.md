@@ -1,6 +1,6 @@
 <div align="center">
   
-![QLDependency Logo](https://cdn.jsdelivr.net/gh/youink/QL-Dependency@main/assets/QQ20220115-203256.png)
+![QLDependency Logo](https://cdn.jsdelivr.net/gh/ayoulx/QL-Dependency@main/assets/QQ20220115-203256.png)
 
 </div>
 
@@ -27,11 +27,11 @@ A timed task management panel that supports typescript, javaScript, python3, and
 [docker-version-url]: https://hub.docker.com/r/whyour/qinglong/tags?page=1&ordering=last_updated
 <!-- [docker-stars-image]: https://img.shields.io/docker/stars/whyour/qinglong?style=flat -->
 <!-- [docker-stars-url]: https://hub.docker.com/r/whyour/qinglong -->
-![GitHub Repo stars](https://img.shields.io/github/stars/youink/QL-Dependency)
-![GitHub forks](https://img.shields.io/github/forks/youink/QL-Dependency)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/youink/QL-Dependency/Release)
+![GitHub Repo stars](https://img.shields.io/github/stars/ayoulx/QL-Dependency)
+![GitHub forks](https://img.shields.io/github/forks/ayoulx/QL-Dependency)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ayoulx/QL-Dependency/Release)
 [![docker-image-size-image]][docker-image-size-url]
-![GitHub](https://img.shields.io/github/license/youink/QL-Dependency)
+![GitHub](https://img.shields.io/github/license/ayoulx/QL-Dependency)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FFlechazoPh%2FQLDependency.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FFlechazoPh%2FQLDependency?ref=badge_shield)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/whyour/qinglong)
@@ -122,7 +122,7 @@ or
 
 ```bash
 
-docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/youink/QL-Dependency/main/Shell/QLOneKeyDependency.sh | bash)"
+docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/ayoulx/QL-Dependency/main/Shell/QLOneKeyDependency.sh | bash)"
 
 ```
 
@@ -134,7 +134,7 @@ docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://raw.g
 
 ```bash
 
-docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com/youink/QL-Dependency/main/Shell/QLOneKeyDependency.sh | bash)"
+docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com/ayoulx/QL-Dependency/main/Shell/QLOneKeyDependency.sh | bash)"
 
 ```
 
@@ -143,7 +143,7 @@ docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com
 
 ```bash
 
-docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com/youink/QL-Dependency/main/Shell/XinQLOneKey.sh | bash)"
+docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com/ayoulx/QL-Dependency/main/Shell/XinQLOneKey.sh | bash)"
 
 ```
 
@@ -162,7 +162,7 @@ docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com
 2. 输入一键安装命令，如果你的青龙容器不叫 qinglong，需要替换为相应的容器名字（国外鸡，可以使用上面的国外脚本，速度比较快）： 
 ```bash
 
-docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/youink/QL-Dependency/main/Shell/QLOneKeyDependency.sh | bash)"
+docker exec -it qinglong bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/ayoulx/QL-Dependency/main/Shell/QLOneKeyDependency.sh | bash)"
 
 ```
 3. 查看输出日志：
@@ -195,7 +195,7 @@ End
 ## 常见问题
 
 安装报错等常见问题请参考： 
-* [常见问题答疑](https://github.com/youink/QL-Dependency/issues?q=is%3Aissue+is%3Aclosed)
+* [常见问题答疑](https://github.com/ayoulx/QL-Dependency/issues?q=is%3Aissue+is%3Aclosed)
 
 ## 附：
 有新的需要的依赖，请测试完成后提交pull request，等待审核通过合并到项目中
@@ -207,7 +207,7 @@ End
 
 * [crontab-ui](https://github.com/alseambusher/crontab-ui)
 
-* ![logo](https://github.com/youink/QL-Dependency/assets/94276146/050e2f90-60bb-438f-a5e3-6ecd964c341c)
+* ![logo](https://github.com/ayoulx/QL-Dependency/assets/94276146/050e2f90-60bb-438f-a5e3-6ecd964c341c)
   
 * [DartNode](https://dartnode.com)
 
